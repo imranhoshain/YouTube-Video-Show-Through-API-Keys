@@ -1,0 +1,34 @@
+.video-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.video-player {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.video-list {
+    flex: 1;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.video-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.video-list li {
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.video-list li:hover {
+    background-color: #f0f0f0;
+}
